@@ -1,4 +1,4 @@
-### GroupCalendar v2.2.1
+### GroupCalendar v2.2.1 (TurtleWOW)
 
 Addons for World of Warcraft 1.12.1.
 
@@ -15,3 +15,4 @@ Open - icon in the minimap or
 /cld
 
 Edit: European time format default 
+
