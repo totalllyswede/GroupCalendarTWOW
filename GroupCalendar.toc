@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Notes: Group event calendar
+## Notes: Group event calendar (TurtleWoW Version)
 ## OptionalDeps: 
 ## RequiredDeps: 
 ## SavedVariables: gGroupCalendar_Settings, gGroupCalendar_Database
@@ -20,3 +20,4 @@ GroupCalendar.xml
 CalendarEditor.xml
 EventEditor.xml
 EventViewer.xml
+
