@@ -131,6 +131,7 @@ gGroupCalendar_EventTypes =
 			{id="ZG",        name = GroupCalendar_cZGEventName,        limits = gGroupCalendar_20ManLimits},
 			{id="UBRS",      name = GroupCalendar_cUBRSEventName,      limits = gGroupCalendar_15ManLimits},
 			{id="Naxx",      name = GroupCalendar_cNaxxEventName,      limits = gGroupCalendar_40ManLimits},
+			{id="LKH",       name = GroupCalendar_cLKHEventName,        limits = gGroupCalendar_10ManLimits},
 		}
 	},
 	
@@ -187,6 +188,7 @@ gGroupCalendar_EventTypes =
 			{id="RSAQT", name=GroupCalendar_cAQTResetEventName}, -- AQT reset
 			{id="RSAQR", name=GroupCalendar_cAQRResetEventName}, -- AQR reset
 			{id="RSNaxx", name=GroupCalendar_cNaxxResetEventName}, -- Naxxramas reset
+			{id="RSLKH",  name=GroupCalendar_cLKHResetEventName},         -- Lower Karazhan Halls reset
 			{id="RSXmut", name=GroupCalendar_cTransmuteCooldownEventName}, -- Transmute
 			{id="RSSalt", name=GroupCalendar_cSaltShakerCooldownEventName}, -- Salt shaker
 			{id="RSMoon", name=GroupCalendar_cMoonclothCooldownEventName}, -- Mooncloth
@@ -202,6 +204,7 @@ gGroupCalendar_EventTypes =
 			RSAQT = {left = 0.0, top = 0.5, right = 0.25, bottom = 0.75, isDungeon = true, name=GroupCalendar_cRaidInfoAQTName, largeIcon="AQT", frequency=7},
 			RSAQR = {left = 0.25, top = 0.5, right = 0.5, bottom = 0.75, isDungeon = true, name=GroupCalendar_cRaidInfoAQRName, largeIcon="AQR", frequency=3},
 			RSNaxx = {left = 0.5, top = 0.5, right = 0.75, bottom = 0.75, isDungeon = true, name=GroupCalendar_cRaidInfoNaxxName, largeIcon="Naxx", frequency=7},
+			RSLKH  = {left = 0.75, top = 0.5, right = 1.0, bottom = 0.75, isDungeon = true, name=GroupCalendar_cRaidInfoLKHName, largeIcon="LKH", frequency=5},
 			RSXmut = {left = 0.50, top = 0, right = 0.75, bottom = 0.25, isTradeskill = true, id="Alchemy", largeSysIcon="Interface\\Icons\\Trade_Alchemy"},
 			RSSalt = {left = 0.25, top = 0, right = 0.5, bottom = 0.25, isTradeskill = true, id="Leatherworking", largeSysIcon="Interface\\Icons\\Trade_Leatherworking"},
 			RSMoon = {left = 0, top = 0, right = 0.25, bottom = 0.25, isTradeskill = true, id="Tailoring", largeSysIcon="Interface\\Icons\\Trade_Tailoring"},

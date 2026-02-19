@@ -1,4 +1,4 @@
-﻿gGroupCalendar_VersionString = "2.2.1";
+﻿gGroupCalendar_VersionString = "2.3";
 
 GroupCalendar_cTitle = "Group Calendar v%s";
 
@@ -85,8 +85,8 @@ GroupCalendar_cEvent = "Event";
 GroupCalendar_cAttendance = "Attendance";
 
 GroupCalendar_cAboutTitle = "About Group Calendar";
-GroupCalendar_cTitleVersion = "Group Calendar v"..gGroupCalendar_VersionString;
-GroupCalendar_cAuthor = "Designed and written by Baylord of Thunderlord";
+GroupCalendar_cTitleVersion = "Group Calendar v"..gGroupCalendar_VersionString.." (TurtleWoW)";
+GroupCalendar_cAuthor = "Designed and written by Baylord of Thunderlord. Modified for TWoW by Olzon";
 GroupCalendar_cTestersTitle = "Testers";
 GroupCalendar_cTestersNames = "Agnosbear, Airmid, Chalay, Drizztt, Fizzlebang, Lifegiver, Powerhouse, Ragdzar, Saracen, Thoros and Zya";
 GroupCalendar_cSpecialThanksTitle = "Special thanks for their extraordinary support to";
@@ -180,6 +180,7 @@ GroupCalendar_cWCEventName = "Wailing Caverns";
 GroupCalendar_cZFEventName = "Zul'Farrak";
 GroupCalendar_cZGEventName = "Zul'Gurub";
 GroupCalendar_cNaxxEventName = "Naxxramas";
+GroupCalendar_cLKHEventName = "Lower Karazan Halls";
 
 GroupCalendar_cPvPEventName = "General PvP";
 GroupCalendar_cABEventName = "Arathi Basin";
@@ -193,6 +194,7 @@ GroupCalendar_cBWLResetEventName = "Blackwing Lair Resets";
 GroupCalendar_cAQRResetEventName = "Ruins of Ahn'Qiraj Resets";
 GroupCalendar_cAQTResetEventName = "Ahn'Qiraj Temple Resets";
 GroupCalendar_cNaxxResetEventName = "Naxxramas Resets";
+GroupCalendar_cLKHResetEventName = "Lower Karazan Halls Resets";
 
 GroupCalendar_cTransmuteCooldownEventName = "Transmute Available";
 GroupCalendar_cSaltShakerCooldownEventName = "Salt Shaker Available";
@@ -208,6 +210,7 @@ GroupCalendar_cRaidInfoBWLName = GroupCalendar_cBWLEventName;
 GroupCalendar_cRaidInfoAQRName = GroupCalendar_cAQREventName;
 GroupCalendar_cRaidInfoAQTName = GroupCalendar_cAQTEventName;
 GroupCalendar_cRaidInfoNaxxName = GroupCalendar_cNaxxEventName;
+GroupCalendar_cRaidInfoLKHName = GroupCalendar_cLKHEventName;
 
 -- Race names
 

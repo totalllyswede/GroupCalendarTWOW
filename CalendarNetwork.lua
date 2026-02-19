@@ -62,18 +62,18 @@ gCalendarNetwork_RequestDelay =
 	ProxyNOURange = 4,
 	
 	InboundQueue = 0.2,
-	OutboundQueue = 0.2,
-	RequestQueue = 0.2,
+	OutboundQueue = 0.8,   -- was 0.2; increased to ~1.25 msg/sec to avoid spam filters
+	RequestQueue = 0.5,    -- was 0.2; slower request queue drain to match
 	
-	-- Outbound queue delay 1 - 5 seconds
+	-- Outbound queue delay 2 - 5 seconds
 	
-	OutboundQueueGapMin = 1, -- Delay for after last inbound message was processed
-	OutboundQueueGapWidth = 4, -- Random delay after the min time
+	OutboundQueueGapMin = 2, -- was 1; longer post-traffic silence before sending
+	OutboundQueueGapWidth = 3, -- was 4; random range shifted up with the new baseline
 	
-	-- Request queue delay 1 - 5 seconds
+	-- Request queue delay 2 - 5 seconds
 	
-	RequestQueueGapMin = 1,  -- Delay for after last inbound or outbound message was processed
-	RequestQueueGapWidth = 4, -- Random delay after the min time
+	RequestQueueGapMin = 2,  -- was 1; longer post-traffic silence before sending requests
+	RequestQueueGapWidth = 3, -- was 4; random range shifted up with the new baseline
 	
 	GuildUpdateAutoConfig = 2,
 	
